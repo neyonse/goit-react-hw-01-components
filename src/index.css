@@ -1,4 +1,5 @@
 @import-normalize; /* bring in normalize.css styles */
+@import 'fonts/fonts.css';
 
 /* body {
   margin: 0;
@@ -8,7 +9,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 } */
-
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -29,8 +29,8 @@ p {
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   color: black;
   background-color: #e7e7e7;
 }

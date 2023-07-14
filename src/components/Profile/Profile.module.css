@@ -1,6 +1,10 @@
 .profile {
   margin: 0 auto;
+  margin-top: 40px;
   width: fit-content;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 
   background-color: aliceblue;
   border: 2px solid rgb(144, 164, 184);
@@ -11,7 +15,7 @@
 }
 
 .description {
-  padding: 20px 24px;
+  padding: 32px 24px;
 
   text-align: center;
 }
@@ -19,7 +23,7 @@
 .avatar {
   margin: 0 auto;
   padding: 8px;
-  height: 128px;
+  height: 132px;
 
   border-radius: 50%;
   background-color: rgb(144, 164, 184);
@@ -28,24 +32,27 @@
 .name {
   margin-top: 24px;
   font-size: 24px;
+  font-weight: 700;
 }
 
 .tag {
   margin-top: 4px;
 
+  font-size: 16px;
   color: gray;
 }
 
 .location {
   margin-top: 4px;
 
+  font-size: 16px;
   color: gray;
 }
 
 .stats {
   display: flex;
   justify-content: space-between;
-  padding: 20px 24px;
+  padding: 28px 24px;
 
   background-color: rgb(144, 164, 184);
 }
@@ -60,10 +67,14 @@
   border-radius: 4px;
 }
 
+.label {
+  font-size: 16px;
+}
+
 .quantity {
   margin-top: 8px;
 
   font-size: 18px;
-  font-weight: 700;
+  font-weight: bold;
   color: rgb(10, 60, 100);
 }
