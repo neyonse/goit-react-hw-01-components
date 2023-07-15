@@ -4,7 +4,7 @@ import { Statistics } from 'components/Statistics/Statistics';
 
 export const App = () => {
   return (
-    <div>
+    <>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -15,6 +15,6 @@ export const App = () => {
         likes={user.stats.likes}
       />
       <Statistics title="Upload stats" />
-    </div>
+    </>
   );
 };

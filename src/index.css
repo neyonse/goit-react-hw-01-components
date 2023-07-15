@@ -46,3 +46,9 @@ ul {
   padding: 0;
   list-style: none;
 }
+
+#root {
+  display: flex;
+  gap: 40px;
+  padding: 40px 32px;
+}
