@@ -1,20 +1,23 @@
 import user from 'user.json';
-import { Profile } from 'components/Profile/Profile';
-import { Statistics } from 'components/Statistics/Statistics';
+import data from 'data.json';
+import friends from 'friends.json';
+import { Profile } from './Profile/Profile';
+import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './FriendList/FriendList';
 
 export const App = () => {
   return (
-    <>
+    <div className="main-wrapper">
       <Profile
         username={user.username}
         tag={user.tag}
         location={user.location}
         avatar={user.avatar}
-        followers={user.stats.followers}
-        views={user.stats.views}
-        likes={user.stats.likes}
+        stats={user.stats}
       />
-      <Statistics title="Upload stats" />
-    </>
+      <Statistics title="Upload stats" stats={data} />
+      <FriendList friends={friends} />
+      {/* <TransactionHistory /> */}
+    </div>
   );
 };

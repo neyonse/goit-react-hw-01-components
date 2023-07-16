@@ -47,8 +47,11 @@ ul {
   list-style: none;
 }
 
-#root {
+.main-wrapper {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 40px;
-  padding: 40px 32px;
+  margin: 40px auto;
+  padding: 0 16px;
 }
