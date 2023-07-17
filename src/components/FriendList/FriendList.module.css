@@ -9,7 +9,7 @@
   font-weight: 700;
 
   background-color: aliceblue;
-  border: 2px solid rgb(144, 164, 184);
+  border: 2px solid rgb(155, 175, 200);
   border-radius: 8px;
   box-shadow: 0px 2px 6px gray;
 
@@ -25,7 +25,7 @@
   width: calc((100% - 12px * 4) / 5);
 
   border-radius: 16px;
-  background-color: rgb(144, 164, 184);
+  background-color: rgb(155, 175, 200);
 }
 
 .status {

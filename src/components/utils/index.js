@@ -1,1 +1,2 @@
-export { getRandomColor } from './getRandomColor';
+// export { getRandomColor } from './getRandomColor';
+export { getRandomColorWithBrightness } from './getRandomColor';
