@@ -37,7 +37,7 @@
   padding: 14px 12px;
   width: calc((100% - 12px * 4) / 5);
 
-  border-radius: 8px;
+  border-radius: 16px;
 }
 
 .label {
