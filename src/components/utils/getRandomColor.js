@@ -1,13 +1,3 @@
-// export const getRandomColor = () => {
-//   return (
-//     '#' +
-//     Math.floor(Math.random() * 16777215)
-//       .toString(16)
-//       .padStart(6, '0')
-//       .toUpperCase()
-//   );
-// };
-
 function getRandomNumber(min, max) {
   return Math.random() * (max - min) + min;
 }
